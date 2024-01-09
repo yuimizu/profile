@@ -7,6 +7,10 @@ img{
     width: 100%;
 }
 
+#container{
+    position: relative;
+}
+
 header {
     display: flex;
     justify-content: space-between;
@@ -122,15 +126,9 @@ h2{
     justify-content: space-between;
 }
 
-footer{
-    position: relative;
-}
-
 #page-top {
     position: absolute;
-    right: 10px;
-    top: 10px;
-    
+    right: 50px;   
 }
 
 #page-top a {
