@@ -1,0 +1,171 @@
+body{
+    margin: 0 auto;
+    color: #383e45;
+}
+
+img{
+    width: 100%;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    height: 60px; 
+    align-items: center; 
+}
+
+ul{
+    display: flex;
+    padding: 10px 0;
+}
+
+li{
+    list-style: none;
+    margin-left: 30px;
+    font-size: 14.4px;
+}
+
+a{
+    text-decoration: none;
+    color: #383e45;  
+}
+
+a:hover{
+    opacity:0.7;
+}
+
+.flex{
+    display: flex;
+    justify-content: center;
+}
+
+.header-logo img{
+    width: 120px;
+    padding: 10px 0;
+}
+
+.main-visual {
+    margin-bottom: 80px;
+}
+
+.main-visual img{
+    width: 100%;
+    max-width: 1920px;
+    height: 600px;
+    object-fit: cover;
+}
+
+.flex-left{
+    margin-right: 30px;
+    margin-top: 10px;
+}
+
+.flex-left img{
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+}
+
+.flex .item{
+    width: 32%;
+}
+
+.title{
+    text-align: center;
+    margin-bottom: 60px;
+}
+
+.title h1{
+    display: inline-block;
+    border-bottom: solid 1px ;
+    font-size: 32px;
+    margin: 0 auto;
+}
+
+h2{
+    font-size: 16px
+ }
+
+ p{
+    font-size: 14.4px;
+}
+
+.wrapper{
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 0 4%;
+}
+
+.about {
+    margin-bottom: 100px;
+}
+
+.item h2 {
+    text-align: center;
+    font-size: 16px;
+}
+
+.item p{
+    text-align: center;
+    font-size: 14.4px;
+}
+
+.bicycle{
+    margin-bottom: 100px;
+}
+
+.flex-right{
+    text-align: left;
+}
+
+.bicycle .flex{
+    justify-content: space-between;
+}
+
+footer{
+    position: relative;
+}
+
+#page-top {
+    position: absolute;
+    right: 10px;
+    top: 10px;
+    
+}
+
+#page-top a {
+    background: url(https://webdesignclip.com/img/pagetop.png) top left no-repeat;
+    background-color: #383e45;
+    display: block;
+    width: 38px;
+    height: 38px;
+    border-radius: 50%;
+}
+
+footer p{
+    text-align: center;
+    font-size: 10px;
+}
+
+@media(max-width:600px){
+    .flex{
+        flex-direction: column;
+    }
+    .flex-left{
+        margin: 0 auto;
+    }
+    .flex .item{
+        width: 100%;
+    }
+
+    .main-visual img{
+        height: calc(100vh - 60px);
+    }
+}
+
+
+  
+  
+
+
+

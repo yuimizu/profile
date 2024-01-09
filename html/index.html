@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>profile</title>
+    <link rel="stylesheet" href="https://unpkg.com/ress/dist/ress.min.css" />
+    <link rel="stylesheet" href="../css/style.css" />
+    <link rel="stylesheet" href="../css/loading.css" />
+    <link rel="stylesheet" href="../css/transition.css" />
+    <link rel="stylesheet" href="../css/hamburger.css" />
+    <link
+      rel="icon"
+      href="https://code-jump.com/demo/html/profile/img/favicon.ico"
+    />
+  </head>
+  <body>
+    <!--読み込む前の画面-->
+    <div id="splash">
+      <div id="splash_text"></div>
+      <!--/splash-->
+    </div>
+    <!--斜めの線の部分-->
+    <div class="splashbg"></div>
+    <!---画面遷移用-->
+    <div id="container">
+      <header id="header" class="wrapper">
+        <div class="header-logo">
+          <img src="https://code-step.com/demo/html/profile/img/logo.svg" />
+        </div>
+        <div class="openbtn"><span></span><span></span><span></span></div>
+        <nav id="g-nav">
+          <ul>
+            <li><a href="#about1">About</a></li>
+            <li><a href="#bicycle1">Bicycle</a></li>
+          </ul>
+        </nav>
+      </header>
+      <main>
+        <div class="main-visual">
+          <img
+            src="https://code-step.com/demo/html/profile/img/mainvisual.jpg"
+          />
+        </div>
+
+        <div class="about wrapper" id="about1">
+          <div class="title"><h1>About</h1></div>
+          <div class="flex">
+            <div class="flex-left">
+              <img
+                src="https://code-step.com/demo/html/profile/img/about.jpg"
+              />
+            </div>
+
+            <div class="flex-right">
+              <h2>KAKERU MIYAICHI</h2>
+              <p>
+                テキストテキストテキストテキストテキストテキストテキスト<br />
+                テキストテキストテキストテキストテキストテキストテキスト<br />
+                テキストテキストテキストテキストテキストテキストテキスト
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div class="bicycle wrapper" id="bicycle1">
+          <div class="title"><h1>Bicycle</h1></div>
+
+          <div class="flex">
+            <div class="item">
+              <img
+                src="https://code-step.com/demo/html/profile/img/bicycle1.jpg"
+              />
+              <h2>タイトルタイトル</h2>
+              <p>テキストテキストテキスト</p>
+            </div>
+
+            <div class="item">
+              <img
+                src="https://code-step.com/demo/html/profile/img/bicycle2.jpg"
+              />
+              <h2>タイトルタイトル</h2>
+              <p>テキストテキストテキスト</p>
+            </div>
+
+            <div class="item">
+              <img
+                src="https://code-step.com/demo/html/profile/img/bicycle3.jpg"
+              />
+              <h2>タイトルタイトル</h2>
+              <p>テキストテキストテキスト</p>
+            </div>
+          </div>
+        </div>
+      </main>
+
+      <footer class="wrapper">
+        <p id="page-top"><a href="#"></a></p>
+        <p>© 2020 Profile</p>
+      </footer>
+
+      <script
+        src="https://code.jquery.com/jquery-3.4.1.min.js"
+        integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
+        crossorigin="anonymous"
+      ></script>
+      <script src="https://rawgit.com/kimmobrunfeldt/progressbar.js/master/dist/progressbar.min.js"></script>
+      <script src="../js/loading.js"></script>
+      <script src="../js/transition.js"></script>
+      <script src="../js/hamburger.js"></script>
+      <script src="../js/smooth.js"></script>
+
+    </div>
+  </body>
+</html>
